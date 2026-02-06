@@ -1,2 +1,8 @@
-server.port=9093
-spring.data.mongodb.uri=mongodb://127.0.0.1:9092/login-service-date
+server:
+  port: 9093
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:9092/login-service-date
+
