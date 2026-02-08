@@ -1,7 +1,10 @@
 server:
   port: 9091
- 
+
 spring:
   application:
     name: login-service
- 
+
+services:
+  login-service-date:
+    url: http://localhost:9093/rest/api/users/login-date
