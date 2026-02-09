@@ -7,7 +7,7 @@ spring:
 
 services:
   login-service-date:
-    url: http://login-service-date/rest/api/users/login-date
+    url: http://login-service-data/rest/api/users/login-date
 
 eureka:
   client:
